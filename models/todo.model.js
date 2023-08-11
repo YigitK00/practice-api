@@ -9,6 +9,6 @@ const todoSchema = new Schema({
   },
 });
 
-const Todo = mongoose.model("Todo", todoSchema);
+const Todo = mongoose.model("yigit", todoSchema);
 
 module.exports = Todo;
