@@ -14,7 +14,7 @@ app.use("/todos", todoRouter);
 
 //const url = process.env.ATLAS_URI;
 const url =
-  "mongodb+srv://yigitklc123:12345@cluster1.h2xbl8k.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://yigitklc123:12345@cluster1.h2xbl8k.mongodb.net/test?retryWrites=true&w=majority";
 
 mongoose.connect(url, {
   useNewUrlParser: true,
